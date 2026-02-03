@@ -1,0 +1,13 @@
+2026-02-03T21:27:05.715+0700 [INFO]  Terraform version: 1.13.4
+2026-02-03T21:27:05.716+0700 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-02-03T21:27:05.716+0700 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-02-03T21:27:05.716+0700 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-02-03T21:27:05.716+0700 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-02-03T21:27:05.716+0700 [INFO]  Go runtime version: go1.24.5
+2026-02-03T21:27:05.716+0700 [INFO]  CLI args: []string{"C:\\Terraform\\terraform.exe", "fmt"}
+2026-02-03T21:27:05.721+0700 [DEBUG] Attempting to open CLI config file: C:\Users\thuye\AppData\Roaming\terraform.rc
+2026-02-03T21:27:05.721+0700 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-02-03T21:27:05.722+0700 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-02-03T21:27:05.722+0700 [DEBUG] ignoring non-existing provider search directory C:\Users\thuye\AppData\Roaming\terraform.d\plugins
+2026-02-03T21:27:05.723+0700 [DEBUG] ignoring non-existing provider search directory C:\Users\thuye\AppData\Roaming\HashiCorp\Terraform\plugins
+2026-02-03T21:27:05.723+0700 [INFO]  CLI command args: []string{"fmt"}

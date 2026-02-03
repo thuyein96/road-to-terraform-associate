@@ -1,0 +1,17 @@
+2026-02-03T21:24:50.085+0700 [INFO]  Terraform version: 1.13.4
+2026-02-03T21:24:50.085+0700 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-02-03T21:24:50.085+0700 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-02-03T21:24:50.085+0700 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-02-03T21:24:50.086+0700 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-02-03T21:24:50.086+0700 [INFO]  Go runtime version: go1.24.5
+2026-02-03T21:24:50.086+0700 [INFO]  CLI args: []string{"C:\\Terraform\\terraform.exe", "init"}
+2026-02-03T21:24:50.088+0700 [DEBUG] Attempting to open CLI config file: C:\Users\thuye\AppData\Roaming\terraform.rc
+2026-02-03T21:24:50.089+0700 [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-02-03T21:24:50.089+0700 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-02-03T21:24:50.089+0700 [DEBUG] ignoring non-existing provider search directory C:\Users\thuye\AppData\Roaming\terraform.d\plugins
+2026-02-03T21:24:50.090+0700 [DEBUG] ignoring non-existing provider search directory C:\Users\thuye\AppData\Roaming\HashiCorp\Terraform\plugins
+2026-02-03T21:24:50.090+0700 [INFO]  CLI command args: []string{"init"}
+2026-02-03T21:24:50.905+0700 [DEBUG] checking for provisioner in "."
+2026-02-03T21:24:50.905+0700 [DEBUG] checking for provisioner in "C:\\Terraform"
+2026-02-03T21:24:50.906+0700 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-02-03T21:24:51.167+0700 [DEBUG] GET https://registry.terraform.io/v1/providers/hashicorp/aws/versions
