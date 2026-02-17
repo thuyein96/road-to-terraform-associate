@@ -1,0 +1,5 @@
+Dependency Lock File
+
+tool to manage provider versions in terraform
+
+It make sure infrastructure deployments are stable and 

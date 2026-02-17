@@ -1,0 +1,37 @@
+Day 5 of Learning Terraform: Understanding Alias
+
+
+
+When you start with Terraform, deploying to one region is easy. But as your infrastructure grows, you often need to deploy the same resources across different regions, accounts, or environments.
+
+
+
+Instead of copying your code into multiple folders, you can use Aliases.
+
+
+
+What is an Alias?
+
+Think of an Alias as a nickname for your provider. It allows you to define multiple configurations for the same provider (like AWS) in a single file.
+
+
+
+Why should you use it?
+
+🔷 Multi-Region Management: Manage resources across the globe (e.g., US and Singapore) within a single Terraform configuration.
+
+🔷 Effortless Modularity: Need to change a configuration? Update it in one provider block, and it reflects across all resources using that alias.
+
+🔷 Environment Separation: Easily distinguish between Dev, Test, and Prod instances without messy workarounds.
+
+🔷 Clean Maintenance: Drastically reduces redundancy and human error. One source of truth for your entire infrastructure.
+
+
+
+The Scenario:
+
+Let say if you needed to create EC2 instances in both the US and Singapore. By setting a region in the provider and assigning an alias, I could simply set the instances to be in different region.
+
+
+
+#Terraform #AWS #DevOps #CloudComputing #IaC #Alias

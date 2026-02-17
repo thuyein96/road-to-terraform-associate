@@ -1,0 +1,13 @@
+export TF_LOG=TRACE
+
+Log Levels of Terraform
+- INFO
+- WARNING
+- ERROR 
+- DEBUG
+- TRACE (most verbose, include all the above levels)
+
+export TF_LOG_PATH=/tmp/terraform.Log
+- log will be written to the file specified in TF_LOG_PATH environment variable
+
+unset TF_LOG - remove the set env value

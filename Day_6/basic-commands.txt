@@ -1,0 +1,48 @@
+terraform validate - validate syntax of configration files
+
+terraform fmt - format the terraform code
+
+terraform show - output current state of infrastructure as seen in configration files
+terraform show -json  - output in json format
+
+terraform providers - show all the providers use in configration files
+
+terraform output - output all the output define in configration file
+terraform output pet-name - output only the pet-name value with define in configration file
+
+terraform plan - a "dry run" or preview of the changes Terraform proposes to make to your infrastructure
+terraform plan -refresh-only - if any manual modification in actual resources, this command will change the terraform state file to map the manual changes 
+
+terraform graph 
+- visualize the dependencies in the configration files
+- can run even before running terraform init command
+
+terraform state list - list all the resources in the configuration file
+
+terraform state show - show attributes of resource
+
+terraform state mv SOURCE DESTINATION
+- move item from one state file to another in different configuration directory
+- moving in same state file imply renaming an item (manually rename in configration file since the command only change state file)
+
+terraform state pull
+- pull remote state file into local
+
+terraform state rm ADDRESS 
+- remove items from the state file
+- make sure to also remove items from configration file as well
+
+terraform state push ./terraform.tfstate
+- override the remote state file with local one
+- if local state file is completely different from remote state file, it will get an error (you can force)
+
+
+terraform import - add the resources that is not created from terraform to add into state file
+- configuration file have to manually update from state file
+terraform import <resource_type>.<resource_name> <attribute> (eg.instance ID)
+
+terraform workspace - separate environment for terraform configuration files
+terraform workspace list - list all the workspace in current directory
+terraform workspace new <workspace_name> - create a new workspace
+terraform workspace select <workspace_name> - switch to the workspace
+terraform workspace delete <workspace_name> - delete the workspace (make sure to switch to other workspace before deleting)
